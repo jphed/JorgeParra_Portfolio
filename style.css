@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.hero-section {
+    height: 100vh;
+    background: url('img/placeholder.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    margin-top: 60px; /* Adjust this value if needed */
+}
+
+.about-section, .projects-section, .contact-section {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.project {
+    margin: 2rem 0;
+}
+
+.instagram-link {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #E1306C;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.instagram-link:hover {
+    background-color: #C13584;
+}
